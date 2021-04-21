@@ -3,6 +3,6 @@ from django.contrib import admin
 
 # Register your models here.
 
-admin.register(Weather)
-admin.register(Place)
-admin.register(TravelDate)
+admin.site.register(Weather)
+admin.site.register(Place)
+admin.site.register(TravelDate)
